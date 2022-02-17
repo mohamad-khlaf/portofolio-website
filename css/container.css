@@ -1,0 +1,39 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  width: 100%;
+  /* background-color: black; */
+ 
+}
+
+@media (min-width: 576px) {
+  .container {
+    width: 540px;
+    /* background-color: yellow; */
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    width: 720px;
+    /* background-color: blueviolet; */
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 960px;
+    /* background-color: green; */
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1140px;
+    /* background-color: black; */
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    width: 1320px;
+    /* background-color: yellowgreen; */
+  }
+}
